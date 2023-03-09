@@ -37,8 +37,8 @@ class SampleViewController: UIViewController, SampleViewControllerInterface {
     
     private func setUpUI() {
         view.addSubview(customButton)
-        customButton.buttonClickHander = {
-            self.interactor?.customButtonClicked()
+        customButton.buttonClickHander = { [weak self] in
+            self?.interactor?.customButtonClicked()
         }
         NSLayoutConstraint.activate([
             customButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),

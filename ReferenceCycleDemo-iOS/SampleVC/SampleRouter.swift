@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 class SampleRouter: SampleRouterInterface {
-    var viewController: UIViewController?
+    weak var viewController: UIViewController?
     
     func dismissSelf() {
         viewController?.dismiss(animated: true)
