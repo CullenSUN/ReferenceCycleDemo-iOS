@@ -8,7 +8,7 @@
 import Foundation
 
 class SamplePresenter: SamplePresenterInterface {
-    var viewController: SampleViewControllerInterface?
+    weak var viewController: SampleViewControllerInterface?
     var router: SampleRouterInterface?
 
     func setupInitialView() {
