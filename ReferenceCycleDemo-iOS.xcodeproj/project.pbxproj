@@ -13,13 +13,13 @@
 		5AD3DF9D29B7A4FA005F2790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD3DF9B29B7A4FA005F2790 /* Main.storyboard */; };
 		5AD3DF9F29B7A4FD005F2790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AD3DF9E29B7A4FD005F2790 /* Assets.xcassets */; };
 		5AD3DFA229B7A4FD005F2790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD3DFA029B7A4FD005F2790 /* LaunchScreen.storyboard */; };
-		5AD3DFAB29B8E773005F2790 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3DFAA29B8E773005F2790 /* SampleViewController.swift */; };
-		5AD3DFAD29B8E77D005F2790 /* SamplePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3DFAC29B8E77D005F2790 /* SamplePresenter.swift */; };
-		5AD3DFB129B8E7A3005F2790 /* SampleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3DFB029B8E7A3005F2790 /* SampleInteractor.swift */; };
-		5AD3DFB329B8E8F6005F2790 /* SampleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3DFB229B8E8F6005F2790 /* SampleConfigurator.swift */; };
-		5AD3DFB529B8EB8B005F2790 /* SampleInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3DFB429B8EB8B005F2790 /* SampleInterfaces.swift */; };
-		5AD3DFB729B8EDF1005F2790 /* SampleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3DFB629B8EDF1005F2790 /* SampleRouter.swift */; };
 		5AD3DFBA29BA30D6005F2790 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3DFB929BA30D6005F2790 /* CustomButton.swift */; };
+		5AD3DFC129BA42D8005F2790 /* SampleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3DFBB29BA42D8005F2790 /* SampleConfigurator.swift */; };
+		5AD3DFC229BA42D8005F2790 /* SampleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3DFBC29BA42D8005F2790 /* SampleInteractor.swift */; };
+		5AD3DFC329BA42D8005F2790 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3DFBD29BA42D8005F2790 /* SampleViewController.swift */; };
+		5AD3DFC429BA42D8005F2790 /* SampleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3DFBE29BA42D8005F2790 /* SampleRouter.swift */; };
+		5AD3DFC529BA42D8005F2790 /* SampleInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3DFBF29BA42D8005F2790 /* SampleInterfaces.swift */; };
+		5AD3DFC629BA42D8005F2790 /* SamplePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3DFC029BA42D8005F2790 /* SamplePresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,13 +31,13 @@
 		5AD3DF9E29B7A4FD005F2790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AD3DFA129B7A4FD005F2790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AD3DFA329B7A4FD005F2790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5AD3DFAA29B8E773005F2790 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SampleViewController.swift; path = ../../../SampleViewController.swift; sourceTree = "<group>"; };
-		5AD3DFAC29B8E77D005F2790 /* SamplePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SamplePresenter.swift; path = ../../../SamplePresenter.swift; sourceTree = "<group>"; };
-		5AD3DFB029B8E7A3005F2790 /* SampleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SampleInteractor.swift; path = ../../../SampleInteractor.swift; sourceTree = "<group>"; };
-		5AD3DFB229B8E8F6005F2790 /* SampleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SampleConfigurator.swift; path = ../../../SampleConfigurator.swift; sourceTree = "<group>"; };
-		5AD3DFB429B8EB8B005F2790 /* SampleInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SampleInterfaces.swift; path = ../../../SampleInterfaces.swift; sourceTree = "<group>"; };
-		5AD3DFB629B8EDF1005F2790 /* SampleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SampleRouter.swift; path = ../../../SampleRouter.swift; sourceTree = "<group>"; };
 		5AD3DFB929BA30D6005F2790 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		5AD3DFBB29BA42D8005F2790 /* SampleConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleConfigurator.swift; sourceTree = "<group>"; };
+		5AD3DFBC29BA42D8005F2790 /* SampleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleInteractor.swift; sourceTree = "<group>"; };
+		5AD3DFBD29BA42D8005F2790 /* SampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		5AD3DFBE29BA42D8005F2790 /* SampleRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleRouter.swift; sourceTree = "<group>"; };
+		5AD3DFBF29BA42D8005F2790 /* SampleInterfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleInterfaces.swift; sourceTree = "<group>"; };
+		5AD3DFC029BA42D8005F2790 /* SamplePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamplePresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,12 +86,12 @@
 		5AD3DFA929B8E757005F2790 /* SampleVC */ = {
 			isa = PBXGroup;
 			children = (
-				5AD3DFB429B8EB8B005F2790 /* SampleInterfaces.swift */,
-				5AD3DFB229B8E8F6005F2790 /* SampleConfigurator.swift */,
-				5AD3DFB029B8E7A3005F2790 /* SampleInteractor.swift */,
-				5AD3DFAC29B8E77D005F2790 /* SamplePresenter.swift */,
-				5AD3DFAA29B8E773005F2790 /* SampleViewController.swift */,
-				5AD3DFB629B8EDF1005F2790 /* SampleRouter.swift */,
+				5AD3DFBB29BA42D8005F2790 /* SampleConfigurator.swift */,
+				5AD3DFBC29BA42D8005F2790 /* SampleInteractor.swift */,
+				5AD3DFBF29BA42D8005F2790 /* SampleInterfaces.swift */,
+				5AD3DFC029BA42D8005F2790 /* SamplePresenter.swift */,
+				5AD3DFBE29BA42D8005F2790 /* SampleRouter.swift */,
+				5AD3DFBD29BA42D8005F2790 /* SampleViewController.swift */,
 			);
 			path = SampleVC;
 			sourceTree = "<group>";
@@ -175,16 +175,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AD3DFB729B8EDF1005F2790 /* SampleRouter.swift in Sources */,
-				5AD3DFB329B8E8F6005F2790 /* SampleConfigurator.swift in Sources */,
+				5AD3DFC629BA42D8005F2790 /* SamplePresenter.swift in Sources */,
+				5AD3DFC429BA42D8005F2790 /* SampleRouter.swift in Sources */,
 				5AD3DFBA29BA30D6005F2790 /* CustomButton.swift in Sources */,
-				5AD3DFAD29B8E77D005F2790 /* SamplePresenter.swift in Sources */,
+				5AD3DFC529BA42D8005F2790 /* SampleInterfaces.swift in Sources */,
+				5AD3DFC129BA42D8005F2790 /* SampleConfigurator.swift in Sources */,
 				5AD3DF9A29B7A4FA005F2790 /* InitialViewController.swift in Sources */,
 				5AD3DF9629B7A4FA005F2790 /* AppDelegate.swift in Sources */,
-				5AD3DFAB29B8E773005F2790 /* SampleViewController.swift in Sources */,
-				5AD3DFB129B8E7A3005F2790 /* SampleInteractor.swift in Sources */,
+				5AD3DFC229BA42D8005F2790 /* SampleInteractor.swift in Sources */,
 				5AD3DF9829B7A4FA005F2790 /* SceneDelegate.swift in Sources */,
-				5AD3DFB529B8EB8B005F2790 /* SampleInterfaces.swift in Sources */,
+				5AD3DFC329BA42D8005F2790 /* SampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

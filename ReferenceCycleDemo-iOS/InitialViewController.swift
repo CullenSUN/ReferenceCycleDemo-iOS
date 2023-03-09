@@ -8,8 +8,9 @@
 import UIKit
 
 class InitialViewController: UIViewController {
-    private lazy var customButton: CustomButton = {
-        let button = CustomButton()
+    private lazy var launchButton: UIButton = {
+        let button = UIButton(configuration: .filled(), primaryAction: nil)
+        button.setTitle("Launch Sample ViewController", for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -20,19 +21,17 @@ class InitialViewController: UIViewController {
     }
     
     private func setUpUI() {
-        view.addSubview(customButton)
-        
-        customButton.updateView(buttonTitle: "Launch Sample ViewController")
-        customButton.buttonClickHander = {
-            self.buttonClicked()
-        }
-        
+        launchButton.addTarget(self, action: #selector(buttonClicked), for: .touchUpInside)
+
+        view.addSubview(launchButton)
+
         NSLayoutConstraint.activate([
-            customButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            customButton.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+            launchButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            launchButton.centerYAnchor.constraint(equalTo: view.centerYAnchor)
         ])
     }
     
+    @objc
     private func buttonClicked() {
         let sampleVC = SampleConfigurator.makeViewController()
         let navController = UINavigationController(rootViewController: sampleVC)
